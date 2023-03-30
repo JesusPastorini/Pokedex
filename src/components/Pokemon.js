@@ -1,24 +1,26 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class Pokemon extends Component {
   render() {
     const { pokemon } = this.props;
+    console.log(pokemon);
     const { name, type, averageWeight, image } = pokemon;
     return (
-    <li className="pokemon">
-    <div>
-      <p>{ name }</p>
-      <p>{ type }</p>
-      <p>
-        Average weight:
-        <span>
-          {`${averageWeight.value} ${averageWeight.measurementUnit}`}
-        </span>
-      </p>
-    </div>
-    <img src={ image } alt={ `${name}` } />
-  </li>);
+      <li className="pokemon">
+        <div>
+          <p>{ name }</p>
+          <p>{ type }</p>
+          <p>
+            Average weight:
+            <span>
+              {`${averageWeight.value} ${averageWeight.measurementUnit}`}
+            </span>
+          </p>
+        </div>
+        <img src={ image } alt={ `${name}` } />
+      </li>
+    );
   }
 }
 Pokemon.propTypes = {
