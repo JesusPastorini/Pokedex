@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Pokedex from './components/Pokedex';
 import Pokemon from './components/Pokemon';
 
 class App extends React.Component {
@@ -7,7 +8,7 @@ class App extends React.Component {
     return (
       <div>
       <h1>Exercise - Pokedex</h1>
-      <Pokemon />
+      <Pokedex />
       </div>
     );
   }
