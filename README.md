@@ -8,7 +8,7 @@ Este é o repositório do projeto Pokédex Components! Aqui você encontrará to
 
 O projeto Pokédex Components é uma aplicação desenvolvida como parte do currículo da Trybe. Ele tem como objetivo principal criar uma versão simplificada de uma Pokédex, onde é possível visualizar informações sobre diferentes Pokémon.
 
-![Pokédex](pokedex.png)
+![Pokédex](my-pokedex-project.gif)
 
 ---
 
